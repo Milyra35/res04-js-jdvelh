@@ -12,7 +12,7 @@ let story = [
                 destination : {}
             }
         ]
-    }
+    },
     {
         intro : "Le démon meurt, après des heures à lui envoyer des boules de feu",
         question : "Vous avez deux chemins possibles qui s'offrent à vous ensuite :",
@@ -24,6 +24,20 @@ let story = [
             {
                 text : "A gauche, une forêt sombre dont vous ne voyez pas la fin",
                 destination : {}
+            }
+        ]
+    },
+    {
+        intro : "Vous tombez sur une vieille maison abandonée",
+        question : "Vous pouvez y entrer ou continuer, que faites-vous ?",
+        choix : [
+            {
+                text : "Je frappe à la porte",
+                destination : {}
+            },
+            {
+                text : "Je continue, j'ai peur des fantômes",
+                destination : null
             }
         ]
     }
